@@ -116,6 +116,10 @@ Dependency Packages
 
 *Vala Panel also needs:* `libvalapanel0 libvalapanel-dev`
 
+**Fedora 42**
+`sudo dnf install git meson cmake libwnck3-devel libdbusmenu-devel  gtk3-devel glib-devel valac`
+On KDE, you need to pass `--prefix=/usr` to meson and after installation, run `glib-compile-schemas /usr/share/glib-2.0/schemas/`
+
 Author
 ===
  * Athor <ria.freelander@gmail.com>
